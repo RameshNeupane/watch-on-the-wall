@@ -24,7 +24,7 @@ body {
   font-size: 5rem;
   text-transform: uppercase;
   font-weight: 700;
-  margin: 1rem 0;
+  margin: 0.5rem 0;
 }
 
 .container {
@@ -222,8 +222,8 @@ p {
   }
 
   .outer-circle {
-    width: 35rem;
-    height: 35rem;
+    width: 25rem;
+    height: 25rem;
   }
 
   .one,
@@ -238,23 +238,23 @@ p {
   .ten,
   .eleven,
   .twelve {
-    width: 33rem;
+    width: 23rem;
   }
 
   .hour-hand {
-    width: 20rem;
+    width: 12rem;
   }
 
   .minute-hand {
-    width: 25rem;
+    width: 15rem;
   }
 
   .second-hand {
-    width: 30rem;
+    width: 18rem;
   }
 
   .center-circle {
-    height: 2.5rem;
-    width: 2.5rem;
+    height: 2rem;
+    width: 2rem;
   }
 }
