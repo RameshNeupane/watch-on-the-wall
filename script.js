@@ -11,7 +11,7 @@ secondHand.style.transform = `rotate(${initialDegree}deg)`;
 const updateTime = () => {
   const date = new Date();
 
-  const hour = date.getHours() % 12;
+  let hour = date.getHours() % 12;
   if (hour === 0) {
     hour = 12;
   }
