@@ -1,0 +1,217 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Quicksand", sans-serif;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.title {
+  font-size: 5rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin: 1rem 0;
+}
+
+.container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+  width: 100vw;
+}
+
+.outer-circle {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50rem;
+  height: 50rem;
+  border-radius: 50%;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 12px 30px 4px;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.one,
+.two,
+.three,
+.four,
+.five,
+.six,
+.seven,
+.eight,
+.nine,
+.ten,
+.eleven,
+.twelve {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 48rem;
+}
+
+p {
+  font-size: 2.5rem;
+  font-weight: 600;
+  position: absolute;
+  transform-origin: center;
+}
+
+.twelve {
+  transform: rotate(90deg);
+}
+
+.twelve p {
+  transform: rotate(-90deg);
+}
+
+.one {
+  transform: rotate(120deg);
+}
+
+.one p {
+  transform: rotate(-120deg);
+}
+
+.two {
+  transform: rotate(150deg);
+}
+
+.two p {
+  transform: rotate(-150deg);
+}
+
+.three {
+  transform: rotate(180deg);
+}
+
+.three p {
+  transform: rotate(180deg);
+}
+
+.four {
+  transform: rotate(-150deg);
+}
+
+.four p {
+  transform: rotate(150deg);
+}
+
+.five {
+  transform: rotate(-120deg);
+}
+
+.five p {
+  transform: rotate(120deg);
+}
+
+.six {
+  transform: rotate(-90deg);
+}
+
+.six p {
+  transform: rotate(90deg);
+}
+
+.seven {
+  transform: rotate(-60deg);
+}
+
+.seven p {
+  transform: rotate(60deg);
+}
+
+.eight {
+  transform: rotate(-30deg);
+}
+
+.eight p {
+  transform: rotate(30deg);
+}
+
+.nine {
+  transform: rotate(0deg);
+}
+
+.nine p {
+  transform: rotate(0deg);
+}
+
+.ten {
+  transform: rotate(30deg);
+}
+
+.ten p {
+  transform: rotate(-30deg);
+}
+
+.eleven {
+  transform: rotate(60deg);
+}
+
+.eleven p {
+  transform: rotate(-60deg);
+}
+
+.hour-hand,
+.minute-hand,
+.second-hand {
+  position: absolute;
+}
+
+.hour-hand {
+  width: 30rem;
+}
+
+.minute-hand {
+  width: 35rem;
+}
+
+.second-hand {
+  width: 40rem;
+  backface-visibility: hidden;
+}
+
+.hour-hand-left,
+.minute-hand-left,
+.second-hand-left {
+  width: 50%;
+  height: 0.5rem;
+}
+
+.hour-hand-left {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.minute-hand-left {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.second-hand-left {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.center-circle {
+  height: 3rem;
+  width: 3rem;
+  background-color: black;
+  border-radius: 100%;
+  z-index: 99;
+}
