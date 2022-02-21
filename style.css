@@ -222,8 +222,8 @@ p {
   }
 
   .outer-circle {
-    width: 40rem;
-    height: 40rem;
+    width: 35rem;
+    height: 35rem;
   }
 
   .one,
@@ -238,19 +238,19 @@ p {
   .ten,
   .eleven,
   .twelve {
-    width: 38rem;
+    width: 33rem;
   }
 
   .hour-hand {
-    width: 25rem;
-  }
-
-  .minute-hand {
     width: 20rem;
   }
 
+  .minute-hand {
+    width: 25rem;
+  }
+
   .second-hand {
-    width: 35rem;
+    width: 30rem;
   }
 
   .center-circle {
