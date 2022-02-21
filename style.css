@@ -17,6 +17,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   background-color: rgba(0, 0, 0, 0.2);
 }
 
@@ -24,7 +25,6 @@ body {
   font-size: 5rem;
   text-transform: uppercase;
   font-weight: 700;
-  margin: 0.5rem 0;
 }
 
 .container {
@@ -32,8 +32,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 90vh;
-  width: 100vw;
+  height: 85%;
+  width: 100%;
 }
 
 .outer-circle {
@@ -216,14 +216,14 @@ p {
   z-index: 99;
 }
 
-@media only screen and (max-width: 576px) {
+@media screen and (max-width: 576px) {
   .title {
     font-size: 2.5rem;
   }
 
   .outer-circle {
-    width: 25rem;
-    height: 25rem;
+    width: 35rem;
+    height: 35rem;
   }
 
   .one,
@@ -238,19 +238,19 @@ p {
   .ten,
   .eleven,
   .twelve {
-    width: 23rem;
+    width: 33rem;
   }
 
   .hour-hand {
-    width: 12rem;
+    width: 30rem;
   }
 
   .minute-hand {
-    width: 15rem;
+    width: 25rem;
   }
 
   .second-hand {
-    width: 18rem;
+    width: 2rem;
   }
 
   .center-circle {
