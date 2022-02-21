@@ -242,15 +242,15 @@ p {
   }
 
   .hour-hand {
-    width: 30rem;
+    width: 20rem;
   }
 
   .minute-hand {
-    width: 25rem;
+    width: 24rem;
   }
 
   .second-hand {
-    width: 2rem;
+    width: 28rem;
   }
 
   .center-circle {
