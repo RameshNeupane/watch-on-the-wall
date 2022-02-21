@@ -215,3 +215,46 @@ p {
   border-radius: 100%;
   z-index: 99;
 }
+
+@media only screen and (max-width: 576px) {
+  .title {
+    font-size: 2.5rem;
+  }
+
+  .outer-circle {
+    width: 40rem;
+    height: 40rem;
+  }
+
+  .one,
+  .two,
+  .three,
+  .four,
+  .five,
+  .six,
+  .seven,
+  .eight,
+  .nine,
+  .ten,
+  .eleven,
+  .twelve {
+    width: 38rem;
+  }
+
+  .hour-hand {
+    width: 25rem;
+  }
+
+  .minute-hand {
+    width: 20rem;
+  }
+
+  .second-hand {
+    width: 35rem;
+  }
+
+  .center-circle {
+    height: 2.5rem;
+    width: 2.5rem;
+  }
+}
