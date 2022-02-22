@@ -4,10 +4,6 @@ const secondHand = document.querySelector(".second-hand");
 
 const initialDegree = 90;
 
-hourHand.style.transform = `rotate(${initialDegree}deg)`;
-minuteHand.style.transform = `rotate(${initialDegree}deg)`;
-secondHand.style.transform = `rotate(${initialDegree}deg)`;
-
 const updateTime = () => {
   const date = new Date();
 
@@ -27,4 +23,5 @@ const updateTime = () => {
   hourHand.style.transform = `rotate(${hrDegree}deg)`;
 };
 
+updateTime();
 setInterval(updateTime, 1000);
