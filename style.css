@@ -41,11 +41,12 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 50rem;
-  height: 50rem;
+  width: 52rem;
+  height: 52rem;
   border-radius: 50%;
+  border: 1.5rem solid black;
   box-shadow: rgba(0, 0, 0, 0.3) 0px 12px 30px 4px;
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.1);
 }
 
 .one,
